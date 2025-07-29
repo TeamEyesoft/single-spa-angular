@@ -33,7 +33,7 @@
     "test": "yarn clean && jest",
     "lint": "eslint apps libs --ext ts",
     "// - SINGLE-SPA-ANGULAR": "Scripts for building single-spa-angular",
-    "build:single-spa-angular": "nx build single-spa-angular --skip-nx-cache && cpx README.md lib",
+    "build:single-spa-angular": "nx build @eyesoft/single-spa-angular --skip-nx-cache && cpx README.md lib",
     "// - WEBPACK": "Scripts for building Webpack config transformer",
     "build:webpack": "rimraf lib/lib && tsc -p tsconfig.webpack.json",
     "// - SCHEMATICS": "Scripts for building schematics and copying its files",
